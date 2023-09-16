@@ -1,0 +1,201 @@
+
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background: url('./images/rbg.jpg' ) center/cover   repeat-y;
+    
+    margin: 0;
+} 
+
+.nav {
+    font-size: 1.2rem;
+    /* margin: 0px; */
+    /* background-color: black; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+ .nav ul {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    float: right;
+    margin-left: 50%;
+}
+/*
+ul li {
+    display: inline;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+} */
+.navbar-brand img{
+    color: white;
+}
+
+#name {
+    color: white;
+    float: left;
+    margin: 1rem;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+}
+
+#name:hover {
+    color: rgb(230, 230, 230);
+    text-decoration: underline;
+}
+
+.nav a:hover {
+    color: rgb(230, 230, 230);
+    text-decoration: underline;
+}
+
+#home {
+    position: relative;
+    top: 5rem;
+    left: 1rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+.sl {
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.tl {
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+#dp {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: -19rem;
+    right: 5rem;
+    float: right;
+    /* filter: drop-shadow(10px 10px 20px rgb(144, 144, 144)); */
+}
+
+span {
+    color: rgb(63, 0, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+}
+
+.sl span {
+    font-size: 3rem;
+}
+
+#skills {
+    position: relative;
+    top: 8rem;
+    left: 2rem;
+    font-size: 2rem;
+}
+
+.svg {
+    height: 2rem;
+    margin-left: 1rem;
+}
+.svg:hover{
+    filter: drop-shadow(10px 10px 20px black);
+
+}
+
+#education {
+    position: relative;
+    top: 9rem;
+    left: 2rem;
+    font-size: 2rem;
+}
+
+#contact {
+    position: relative;
+    top: 10rem;
+    left: 2rem;
+}
+
+#email {
+    text-decoration: none;
+    color: black;
+}
+
+#email:hover {
+    text-decoration: underline;
+}
+
+.social img {
+    margin-bottom: 2rem;
+}
+
+.soci {
+    animation: soci 2s linear infinite;
+}
+
+@keyframes soci {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+    .nav ul {
+        float: none;
+        margin: 1rem auto;
+        text-align: center;
+    }
+    ul li {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+    #dp {
+        float: none;
+        margin: 0 auto;
+        top: 0;
+        right: 0;
+        height: 150px;
+        width: 150px;
+        margin-bottom: 2rem;
+    }
+    #home,
+    #skills,
+    #education,
+    #contact {
+        top: 3rem;
+        left: 1rem;
+    }
+}
+
+
+@media (max-width:995px){
+    #dp{
+        float: none;
+        margin: 0 auto;
+        top: 0;
+        right: 0;
+        height: 150px;
+        width: 150px;
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width: 768px){
+    #home{
+        position: inherit;
+        margin-top: 5rem;
+    }
+}
