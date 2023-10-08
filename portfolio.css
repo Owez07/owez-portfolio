@@ -4,7 +4,7 @@ html {
     scroll-behavior: smooth;
 }
 body{
-    background: url('./images/rbg.jpg' ) center/cover   repeat-y;
+    background: url('rbg.jpg' ) center/cover   repeat-y;
     
     margin: 0;
 } 
